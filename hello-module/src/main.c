@@ -1,7 +1,10 @@
+
 #include <hello.h>
 
-int main() {
-  HelloFunc();
+int main(void) {
+
+  hello_func();
+
   return 0;
 }
 

@@ -1,5 +1,5 @@
-find_path(HELLO_INCLUDE_DIR hello.h /usr/include/hello /usr/local/include/hello)
-find_library(HELLO_LIBRARY NAMES hello PATH /usr/lib /usr/local/lib)
+find_path(HELLO_INCLUDE_DIR hello.h "/Users/akagi201/Documents/learning-cmake/hello-world-shared/include/hello")
+find_library(HELLO_LIBRARY NAMES hello PATH "/Users/akagi201/Documents/learning-cmake/hello-world-shared/lib")
 
 if(HELLO_INCLUDE_DIR AND HELLO_LIBRARY)
   SET(HELLO_FOUND true)
@@ -14,4 +14,3 @@ else(HELLO_FOUND)
     message(FATAL_ERROR "Could not find hello library")
   endif(HELLO_FIND_REQUIRED)
 endif(HELLO_FOUND)
-
