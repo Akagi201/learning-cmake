@@ -1,5 +1,6 @@
-find_path(HELLO_INCLUDE_DIR hello.h "/Users/akagi201/Documents/learning-cmake/hello-world-shared/include/hello")
-find_library(HELLO_LIBRARY NAMES hello PATH "/Users/akagi201/Documents/learning-cmake/hello-world-shared/lib")
+
+find_path(HELLO_INCLUDE_DIR hello.h /usr/local/include/hello)
+find_library(HELLO_LIBRARY NAMES hello PATH /usr/local/lib)
 
 if(HELLO_INCLUDE_DIR AND HELLO_LIBRARY)
   SET(HELLO_FOUND true)
