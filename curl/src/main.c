@@ -1,4 +1,13 @@
 
+/*
+ * @file main.c
+ * @author Akagi201
+ * @date 2014/10/18
+ *
+ * get the content of www.baidu.com and write to /tmp/curl-test
+ */
+
+
 #include <curl/curl.h>
 #include <stdio.h>
 #include <stdlib.h>

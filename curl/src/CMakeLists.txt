@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 2.8.4)
 
 add_executable(curltest main.c)
 
+#include_directories(/usr/local/include)
+#target_link_libraries(curltest curl)
+
 find_package(curl)
 
 if(CURL_FOUND)
