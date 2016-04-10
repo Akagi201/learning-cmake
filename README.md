@@ -26,3 +26,6 @@ This is a simple CMake practice project which contains some different scenarios.
 * `hello-module`
 
 	Demo how to use cmake find module.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Akagi201/learning-cmake/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
