@@ -9,7 +9,7 @@
 /*
  * These values are automatically set according to their cmake variables.
  */
-#define VERSION "${VERSION}"
-#define NUMBER ${NUMBER}
+#cmakedefine VERSION "${VERSION}"
+#cmakedefine NUMBER ${NUMBER}
 
 #endif // CONFIG_H
