@@ -1,0 +1,9 @@
+#ifndef BUILD_H_
+#define BUILD_H_
+
+// build info
+
+#define BUILD_DATE "@BUILD_DATE@"
+#define BUILD_ARCH "@BUILD_ARCH@"
+
+#endif // BUILD_H_

@@ -28,4 +28,6 @@
 *.x86_64
 *.hex
 
+# build files
 build/
+config-file/build/

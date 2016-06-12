@@ -1,0 +1,15 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#cmakedefine WITH_FOO 1
+#cmakedefine WITH_BAR 1
+
+#cmakedefine BAZ @BAZ@
+
+/*
+ * These values are automatically set according to their cmake variables.
+ */
+#define VERSION "${VERSION}"
+#define NUMBER ${NUMBER}
+
+#endif // CONFIG_H
