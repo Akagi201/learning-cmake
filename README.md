@@ -1,21 +1,20 @@
-learning-cmake
-==============
+# learning-cmake
 
 This is a simple CMake practice project which contains some different scenarios.
 
-* `hello_world`
+* `hello-world`
 
   Demo a simplest CMake project.
 
-* `hello_world_clear`
+* `hello-world-clear`
 
   Separate the output files and src files.
 
-* `hello_world_lib`
+* `hello-world-lib`
 
   Demo how to make a static/shared library.
 
-* `hello_world_shared`
+* `hello-world-shared`
 
   Demo how to utilize external static/shared library.
 
