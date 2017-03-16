@@ -30,4 +30,6 @@
 
 # build files
 build/
+_builds/
+_build/
 config-file/build/
