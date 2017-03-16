@@ -10,6 +10,10 @@ This is a simple CMake tutorial project which contains some different scenarios.
 * `hello-module`: Demo how to use cmake find module.
 * `config-file`: Demo how to work with config.h.
 
+## Build steps
+* `cmake -H. -B_builds`
+* `cmake --build _builds`
+
 ## CMake based tools
 * [hunter](https://github.com/ruslo/hunter): CMake-driven cross-platform package manager for C++.
 * [CLion](https://www.jetbrains.com/clion/): CMake based IDE.
