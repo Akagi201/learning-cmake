@@ -9,6 +9,7 @@ This is a simple CMake tutorial project which contains some different scenarios.
 * `curl`: Demo how to use cmake with curl.
 * `hello-module`: Demo how to use cmake find module.
 * `config-file`: Demo how to work with config.h.
+* `hunter-simple`: Demo how to use hunter and gtest.
 
 ## Build steps
 * `cmake -H. -B_builds`
