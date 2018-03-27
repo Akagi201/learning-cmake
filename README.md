@@ -26,3 +26,4 @@ This is a simple CMake tutorial project which contains some different scenarios.
 * [Mastering CMake](docs/mastering-cmake.pdf)
 * [CGold: The Hitchhiker’s Guide to the CMake](https://cgold.readthedocs.io/en/latest/index.html)
 * [Latest Official CMake doc](https://cmake.org/cmake/help/latest/index.html)
+* [CMake Example](https://github.com/ttroy50/cmake-examples)
