@@ -10,6 +10,7 @@ This is a simple CMake tutorial project which contains some different scenarios.
 * `hello-module`: Demo how to use cmake find module.
 * `config-file`: Demo how to work with config.h.
 * `hunter-simple`: Demo how to use hunter and gtest.
+* `boost`: Demo how to use boost library.
 
 ## Build steps
 * `cmake -H. -B_builds`
