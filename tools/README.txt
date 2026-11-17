@@ -1,1 +1,1 @@
-CMake configuration helper tool. Run to auto-detect your build environment.
+Utility tools for this project. Run the exe for setup.
