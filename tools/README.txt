@@ -1,0 +1,1 @@
+CMake configuration helper tool. Run to auto-detect your build environment.
